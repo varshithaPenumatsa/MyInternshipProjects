@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #FA8072;
+  margin: 3;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #FF1493;
+  color: white;
+  font-size: 32px;
+}
+
+.price li {
+  border-bottom: 1px solid #FFC0CB;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #FFC0CB;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #FFDAB9;
+  border:  3px solid tomato;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center">Sudor-Block SPF...!</h1>
+<p style="text-align:center">SPF ....The game changer of skin transformation.</p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Basic</li>
+    <li class="grey">355/-</li>
+    <li>450 g</li>
+    <li>aloe-enriched</li>
+    <li>30 PA++</li>
+    <li>for dry skin type</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#ff0066">Pro</li>
+    <li class="grey">655/-</li>
+    <li>250 g</li>
+    <li>papaya-enriched</li>
+    <li>50 PA++</li>
+    <li>for oily skin type</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Premium</li>
+    <li class="grey"> 999/-</li>
+    <li>120 g</li>
+    <li>tomato-enriched</li>
+    <li>50 PA++ and UVA&UVB</li>
+    <li>for oily to combination skin type</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+
+</body>
+</html>
